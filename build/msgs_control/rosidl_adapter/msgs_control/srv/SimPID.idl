@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msgs_control/srv/SimPID.srv
+// generated code does not contain a copyright notice
+
+
+module msgs_control {
+  module srv {
+    @verbatim (language="comment", text=
+      "Archivo sim_pid.srv")
+    struct SimPID_Request {
+      float kp;
+
+      float ki;
+
+      float kd;
+    };
+    struct SimPID_Response {
+      float overshoot;
+
+      float d;
+
+      float ess;
+
+      float ts;
+    };
+  };
+};

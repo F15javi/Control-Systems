@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating intro_pkg.egg-info
+writing intro_pkg.egg-info/PKG-INFO
+writing dependency_links to intro_pkg.egg-info/dependency_links.txt
+writing entry points to intro_pkg.egg-info/entry_points.txt
+writing requirements to intro_pkg.egg-info/requires.txt
+writing top-level names to intro_pkg.egg-info/top_level.txt
+writing manifest file 'intro_pkg.egg-info/SOURCES.txt'
+reading manifest file 'intro_pkg.egg-info/SOURCES.txt'
+writing manifest file 'intro_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages/intro-pkg.egg-link (link to .)
+Installing hello script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+Installing pub_node script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+Installing sub_node script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+Installing timer script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+
+Installed /home/robotica/ros2_ws/build/intro_pkg
+running install_data
+creating /home/robotica/ros2_ws/install/intro_pkg/share/ament_index
+creating /home/robotica/ros2_ws/install/intro_pkg/share/ament_index/resource_index
+creating /home/robotica/ros2_ws/install/intro_pkg/share/ament_index/resource_index/packages
+copying resource/intro_pkg -> /home/robotica/ros2_ws/install/intro_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotica/ros2_ws/install/intro_pkg/share/intro_pkg
+copying launch/intro.launch.py -> /home/robotica/ros2_ws/install/intro_pkg/share/intro_pkg

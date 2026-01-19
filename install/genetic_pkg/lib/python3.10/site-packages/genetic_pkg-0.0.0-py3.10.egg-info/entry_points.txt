@@ -1,0 +1,3 @@
+[console_scripts]
+genetic = genetic_pkg.genetic_sim:main
+

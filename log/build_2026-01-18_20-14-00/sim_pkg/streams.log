@@ -1,0 +1,55 @@
+[0.618s] Invoking command in '/home/robotica/ros2_ws/src/sim_pkg': PYTHONPATH=/home/robotica/ros2_ws/build/sim_pkg/prefix_override:/home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim_pkg build --build-base /home/robotica/ros2_ws/build/sim_pkg/build install --record /home/robotica/ros2_ws/build/sim_pkg/install.log --single-version-externally-managed
+[0.833s] running egg_info
+[0.833s] creating ../../build/sim_pkg/sim_pkg.egg-info
+[0.834s] writing ../../build/sim_pkg/sim_pkg.egg-info/PKG-INFO
+[0.834s] writing dependency_links to ../../build/sim_pkg/sim_pkg.egg-info/dependency_links.txt
+[0.834s] writing entry points to ../../build/sim_pkg/sim_pkg.egg-info/entry_points.txt
+[0.834s] writing requirements to ../../build/sim_pkg/sim_pkg.egg-info/requires.txt
+[0.834s] writing top-level names to ../../build/sim_pkg/sim_pkg.egg-info/top_level.txt
+[0.834s] writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[0.836s] reading manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[0.837s] writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[0.838s] running build
+[0.838s] running build_py
+[0.838s] creating /home/robotica/ros2_ws/build/sim_pkg/build
+[0.838s] creating /home/robotica/ros2_ws/build/sim_pkg/build/lib
+[0.838s] creating /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.838s] copying sim_pkg/sim_manual.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.838s] copying sim_pkg/__init__.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.838s] copying sim_pkg/sim_node.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.838s] creating /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.838s] copying sim_pkg/utils/Performance.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.838s] copying sim_pkg/utils/__init__.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.838s] copying sim_pkg/utils/DC_motor_sim.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.838s] copying sim_pkg/utils/Controller.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.839s] running install
+[0.840s] running install_lib
+[0.841s] creating /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.841s] copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/sim_manual.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.841s] copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/__init__.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.841s] copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/sim_node.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.841s] creating /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.841s] copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/Performance.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.841s] copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/__init__.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.841s] copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/DC_motor_sim.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.841s] copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/Controller.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.842s] byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_manual.py to sim_manual.cpython-310.pyc
+[0.842s] byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/__init__.py to __init__.cpython-310.pyc
+[0.842s] byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_node.py to sim_node.cpython-310.pyc
+[0.843s] byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Performance.py to Performance.cpython-310.pyc
+[0.843s] byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/__init__.py to __init__.cpython-310.pyc
+[0.844s] byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/DC_motor_sim.py to DC_motor_sim.cpython-310.pyc
+[0.844s] byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Controller.py to Controller.cpython-310.pyc
+[0.844s] running install_data
+[0.845s] creating /home/robotica/ros2_ws/install/sim_pkg/share/ament_index
+[0.845s] creating /home/robotica/ros2_ws/install/sim_pkg/share/ament_index/resource_index
+[0.845s] creating /home/robotica/ros2_ws/install/sim_pkg/share/ament_index/resource_index/packages
+[0.845s] copying resource/sim_pkg -> /home/robotica/ros2_ws/install/sim_pkg/share/ament_index/resource_index/packages
+[0.845s] copying package.xml -> /home/robotica/ros2_ws/install/sim_pkg/share/sim_pkg
+[0.845s] copying launch/sim_srv.launch.py -> /home/robotica/ros2_ws/install/sim_pkg/share/sim_pkg
+[0.846s] running install_egg_info
+[0.847s] Copying ../../build/sim_pkg/sim_pkg.egg-info to /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info
+[0.847s] running install_scripts
+[0.866s] Installing simulator script to /home/robotica/ros2_ws/install/sim_pkg/lib/sim_pkg
+[0.866s] writing list of installed files to '/home/robotica/ros2_ws/build/sim_pkg/install.log'
+[0.905s] Invoked command in '/home/robotica/ros2_ws/src/sim_pkg' returned '0': PYTHONPATH=/home/robotica/ros2_ws/build/sim_pkg/prefix_override:/home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sim_pkg build --build-base /home/robotica/ros2_ws/build/sim_pkg/build install --record /home/robotica/ros2_ws/build/sim_pkg/install.log --single-version-externally-managed

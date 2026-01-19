@@ -1,0 +1,6 @@
+[console_scripts]
+hello = intro_pkg.init_node:main
+pub_node = intro_pkg.pub_node:main
+sub_node = intro_pkg.sub_node:main
+timer = intro_pkg.timer_node:main
+

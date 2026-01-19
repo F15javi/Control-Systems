@@ -1,0 +1,4 @@
+Invoking command in '/home/robotica/ros2_ws/build/msgs_control': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2_ws/build/msgs_control -- -j2 -l2
+Invoked command in '/home/robotica/ros2_ws/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2_ws/build/msgs_control -- -j2 -l2
+Invoking command in '/home/robotica/ros2_ws/build/msgs_control': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2_ws/build/msgs_control
+Invoked command in '/home/robotica/ros2_ws/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2_ws/build/msgs_control

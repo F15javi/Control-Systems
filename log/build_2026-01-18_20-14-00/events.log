@@ -1,0 +1,397 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (genetic_pkg) JobQueued: {'identifier': 'genetic_pkg', 'dependencies': OrderedDict()}
+[0.000285] (msgs_control) JobQueued: {'identifier': 'msgs_control', 'dependencies': OrderedDict()}
+[0.000304] (sim_pkg) JobQueued: {'identifier': 'sim_pkg', 'dependencies': OrderedDict()}
+[0.000323] (genetic_pkg) JobStarted: {'identifier': 'genetic_pkg'}
+[0.023908] (msgs_control) JobStarted: {'identifier': 'msgs_control'}
+[0.200815] (-) TimerEvent: {}
+[0.238305] (msgs_control) JobProgress: {'identifier': 'msgs_control', 'progress': 'cmake'}
+[0.238419] (msgs_control) Command: {'cmd': ['/usr/bin/cmake', '/home/robotica/ros2_ws/src/msgs_control', '-DCMAKE_INSTALL_PREFIX=/home/robotica/ros2_ws/install/msgs_control'], 'cwd': '/home/robotica/ros2_ws/build/msgs_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/ros2_ws/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1181'), ('SYSTEMD_EXEC_PID', '1365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5600'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('JOURNAL_STREAM', '8:22994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-U22:@/tmp/.ICE-unix/1348,unix/robotica-U22:/tmp/.ICE-unix/1348'), ('INVOCATION_ID', 'f2bf30e6d3a44ec09f6399117c87ef0d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CI21I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:76848e23-1e9d-4796-b789-c32d370655db'), ('ROS_WS', '/home/robotica/ros2_ws'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/ros2_ws/build/msgs_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/ros2_ws/build/intro_pkg:/home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble')]), 'shell': False}
+[0.301256] (-) TimerEvent: {}
+[0.402519] (-) TimerEvent: {}
+[0.503863] (-) TimerEvent: {}
+[0.590011] (msgs_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.604518] (-) TimerEvent: {}
+[0.705825] (-) TimerEvent: {}
+[0.721016] (genetic_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/genetic_pkg', 'build', '--build-base', '/home/robotica/ros2_ws/build/genetic_pkg/build', 'install', '--record', '/home/robotica/ros2_ws/build/genetic_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/ros2_ws/src/genetic_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica/ros2_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1181', 'SYSTEMD_EXEC_PID': '1365', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5600', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotica/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', 'JOURNAL_STREAM': '8:22994', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotica', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotica-U22:@/tmp/.ICE-unix/1348,unix/robotica-U22:/tmp/.ICE-unix/1348', 'INVOCATION_ID': 'f2bf30e6d3a44ec09f6399117c87ef0d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CI21I3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:76848e23-1e9d-4796-b789-c32d370655db', 'ROS_WS': '/home/robotica/ros2_ws', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotica/ros2_ws/build/genetic_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/ros2_ws/build/genetic_pkg/prefix_override:/home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages:/home/robotica/ros2_ws/build/intro_pkg:/home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.807290] (-) TimerEvent: {}
+[0.815603] (msgs_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.845895] (msgs_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.907445] (-) TimerEvent: {}
+[0.953001] (msgs_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.958451] (msgs_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.959938] (msgs_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.962828] (msgs_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.969579] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.970904] (genetic_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.971440] (genetic_pkg) StdoutLine: {'line': b'creating ../../build/genetic_pkg/genetic_pkg.egg-info\n'}
+[0.971723] (genetic_pkg) StdoutLine: {'line': b'writing ../../build/genetic_pkg/genetic_pkg.egg-info/PKG-INFO\n'}
+[0.972021] (genetic_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/genetic_pkg/genetic_pkg.egg-info/dependency_links.txt\n'}
+[0.972239] (genetic_pkg) StdoutLine: {'line': b'writing entry points to ../../build/genetic_pkg/genetic_pkg.egg-info/entry_points.txt\n'}
+[0.972426] (genetic_pkg) StdoutLine: {'line': b'writing requirements to ../../build/genetic_pkg/genetic_pkg.egg-info/requires.txt\n'}
+[0.972585] (genetic_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/genetic_pkg/genetic_pkg.egg-info/top_level.txt\n'}
+[0.972839] (genetic_pkg) StdoutLine: {'line': b"writing manifest file '../../build/genetic_pkg/genetic_pkg.egg-info/SOURCES.txt'\n"}
+[0.974799] (genetic_pkg) StdoutLine: {'line': b"reading manifest file '../../build/genetic_pkg/genetic_pkg.egg-info/SOURCES.txt'\n"}
+[0.975373] (genetic_pkg) StdoutLine: {'line': b"writing manifest file '../../build/genetic_pkg/genetic_pkg.egg-info/SOURCES.txt'\n"}
+[0.975639] (genetic_pkg) StdoutLine: {'line': b'running build\n'}
+[0.975761] (genetic_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.976115] (genetic_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/build/genetic_pkg/build\n'}
+[0.976255] (genetic_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/build/genetic_pkg/build/lib\n'}
+[0.976381] (genetic_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/build/genetic_pkg/build/lib/genetic_pkg\n'}
+[0.976537] (genetic_pkg) StdoutLine: {'line': b'copying genetic_pkg/__init__.py -> /home/robotica/ros2_ws/build/genetic_pkg/build/lib/genetic_pkg\n'}
+[0.976715] (genetic_pkg) StdoutLine: {'line': b'copying genetic_pkg/genetic_sim.py -> /home/robotica/ros2_ws/build/genetic_pkg/build/lib/genetic_pkg\n'}
+[0.976942] (genetic_pkg) StdoutLine: {'line': b'running install\n'}
+[0.977263] (genetic_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.978277] (genetic_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg\n'}
+[0.978444] (genetic_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/genetic_pkg/build/lib/genetic_pkg/__init__.py -> /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg\n'}
+[0.978742] (genetic_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/genetic_pkg/build/lib/genetic_pkg/genetic_sim.py -> /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg\n'}
+[0.979228] (genetic_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[0.979505] (genetic_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg/genetic_sim.py to genetic_sim.cpython-310.pyc\n'}
+[0.980464] (genetic_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.980897] (genetic_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/genetic_pkg/share/ament_index\n'}
+[0.981039] (genetic_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/genetic_pkg/share/ament_index/resource_index\n'}
+[0.981171] (genetic_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/genetic_pkg/share/ament_index/resource_index/packages\n'}
+[0.981348] (genetic_pkg) StdoutLine: {'line': b'copying resource/genetic_pkg -> /home/robotica/ros2_ws/install/genetic_pkg/share/ament_index/resource_index/packages\n'}
+[0.981561] (genetic_pkg) StdoutLine: {'line': b'copying package.xml -> /home/robotica/ros2_ws/install/genetic_pkg/share/genetic_pkg\n'}
+[0.981751] (genetic_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.983035] (genetic_pkg) StdoutLine: {'line': b'Copying ../../build/genetic_pkg/genetic_pkg.egg-info to /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg-0.0.0-py3.10.egg-info\n'}
+[0.983678] (genetic_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.999115] (genetic_pkg) StdoutLine: {'line': b'Installing genetic script to /home/robotica/ros2_ws/install/genetic_pkg/lib/genetic_pkg\n'}
+[0.999620] (genetic_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/ros2_ws/build/genetic_pkg/install.log'\n"}
+[1.007525] (-) TimerEvent: {}
+[1.023731] (genetic_pkg) CommandEnded: {'returncode': 0}
+[1.057801] (genetic_pkg) JobEnded: {'identifier': 'genetic_pkg', 'rc': 0}
+[1.058334] (sim_pkg) JobStarted: {'identifier': 'sim_pkg'}
+[1.064729] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.070262] (msgs_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.070640] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.071157] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.108024] (-) TimerEvent: {}
+[1.123154] (msgs_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.263066] (-) TimerEvent: {}
+[1.292477] (msgs_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.363191] (-) TimerEvent: {}
+[1.463657] (-) TimerEvent: {}
+[1.473412] (msgs_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.563768] (-) TimerEvent: {}
+[1.571235] (msgs_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.587209] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.615609] (msgs_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.666752] (-) TimerEvent: {}
+[1.676275] (sim_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sim_pkg', 'build', '--build-base', '/home/robotica/ros2_ws/build/sim_pkg/build', 'install', '--record', '/home/robotica/ros2_ws/build/sim_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/ros2_ws/src/sim_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica/ros2_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1181', 'SYSTEMD_EXEC_PID': '1365', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5600', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotica/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', 'JOURNAL_STREAM': '8:22994', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotica', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotica-U22:@/tmp/.ICE-unix/1348,unix/robotica-U22:/tmp/.ICE-unix/1348', 'INVOCATION_ID': 'f2bf30e6d3a44ec09f6399117c87ef0d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CI21I3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:76848e23-1e9d-4796-b789-c32d370655db', 'ROS_WS': '/home/robotica/ros2_ws', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotica/ros2_ws/build/sim_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/ros2_ws/build/sim_pkg/prefix_override:/home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages:/home/robotica/ros2_ws/build/intro_pkg:/home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.759171] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.767751] (-) TimerEvent: {}
+[1.891198] (sim_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.891363] (-) TimerEvent: {}
+[1.891763] (sim_pkg) StdoutLine: {'line': b'creating ../../build/sim_pkg/sim_pkg.egg-info\n'}
+[1.891835] (sim_pkg) StdoutLine: {'line': b'writing ../../build/sim_pkg/sim_pkg.egg-info/PKG-INFO\n'}
+[1.892161] (sim_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/sim_pkg/sim_pkg.egg-info/dependency_links.txt\n'}
+[1.892271] (sim_pkg) StdoutLine: {'line': b'writing entry points to ../../build/sim_pkg/sim_pkg.egg-info/entry_points.txt\n'}
+[1.892350] (sim_pkg) StdoutLine: {'line': b'writing requirements to ../../build/sim_pkg/sim_pkg.egg-info/requires.txt\n'}
+[1.892398] (sim_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/sim_pkg/sim_pkg.egg-info/top_level.txt\n'}
+[1.892764] (sim_pkg) StdoutLine: {'line': b"writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'\n"}
+[1.894557] (sim_pkg) StdoutLine: {'line': b"reading manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'\n"}
+[1.895141] (sim_pkg) StdoutLine: {'line': b"writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'\n"}
+[1.895981] (sim_pkg) StdoutLine: {'line': b'running build\n'}
+[1.896049] (sim_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.896094] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/build/sim_pkg/build\n'}
+[1.896135] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/build/sim_pkg/build/lib\n'}
+[1.896173] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg\n'}
+[1.896209] (sim_pkg) StdoutLine: {'line': b'copying sim_pkg/sim_manual.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg\n'}
+[1.896297] (sim_pkg) StdoutLine: {'line': b'copying sim_pkg/__init__.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg\n'}
+[1.896356] (sim_pkg) StdoutLine: {'line': b'copying sim_pkg/sim_node.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg\n'}
+[1.896399] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils\n'}
+[1.896458] (sim_pkg) StdoutLine: {'line': b'copying sim_pkg/utils/Performance.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils\n'}
+[1.896509] (sim_pkg) StdoutLine: {'line': b'copying sim_pkg/utils/__init__.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils\n'}
+[1.896548] (sim_pkg) StdoutLine: {'line': b'copying sim_pkg/utils/DC_motor_sim.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils\n'}
+[1.896601] (sim_pkg) StdoutLine: {'line': b'copying sim_pkg/utils/Controller.py -> /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils\n'}
+[1.897101] (sim_pkg) StdoutLine: {'line': b'running install\n'}
+[1.898037] (sim_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.898867] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg\n'}
+[1.898938] (sim_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/sim_manual.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg\n'}
+[1.899006] (sim_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/__init__.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg\n'}
+[1.899050] (sim_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/sim_node.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg\n'}
+[1.899104] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils\n'}
+[1.899147] (sim_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/Performance.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils\n'}
+[1.899204] (sim_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/__init__.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils\n'}
+[1.899245] (sim_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/DC_motor_sim.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils\n'}
+[1.899295] (sim_pkg) StdoutLine: {'line': b'copying /home/robotica/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/Controller.py -> /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils\n'}
+[1.899920] (sim_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_manual.py to sim_manual.cpython-310.pyc\n'}
+[1.900633] (sim_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.900700] (sim_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_node.py to sim_node.cpython-310.pyc\n'}
+[1.901260] (sim_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Performance.py to Performance.cpython-310.pyc\n'}
+[1.901793] (sim_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/__init__.py to __init__.cpython-310.pyc\n'}
+[1.901861] (sim_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/DC_motor_sim.py to DC_motor_sim.cpython-310.pyc\n'}
+[1.902677] (sim_pkg) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Controller.py to Controller.cpython-310.pyc\n'}
+[1.902745] (sim_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.903270] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/sim_pkg/share/ament_index\n'}
+[1.903596] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/sim_pkg/share/ament_index/resource_index\n'}
+[1.903648] (sim_pkg) StdoutLine: {'line': b'creating /home/robotica/ros2_ws/install/sim_pkg/share/ament_index/resource_index/packages\n'}
+[1.903730] (sim_pkg) StdoutLine: {'line': b'copying resource/sim_pkg -> /home/robotica/ros2_ws/install/sim_pkg/share/ament_index/resource_index/packages\n'}
+[1.903780] (sim_pkg) StdoutLine: {'line': b'copying package.xml -> /home/robotica/ros2_ws/install/sim_pkg/share/sim_pkg\n'}
+[1.903819] (sim_pkg) StdoutLine: {'line': b'copying launch/sim_srv.launch.py -> /home/robotica/ros2_ws/install/sim_pkg/share/sim_pkg\n'}
+[1.903856] (sim_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.904819] (sim_pkg) StdoutLine: {'line': b'Copying ../../build/sim_pkg/sim_pkg.egg-info to /home/robotica/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info\n'}
+[1.905586] (sim_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.923799] (sim_pkg) StdoutLine: {'line': b'Installing simulator script to /home/robotica/ros2_ws/install/sim_pkg/lib/sim_pkg\n'}
+[1.923954] (sim_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/ros2_ws/build/sim_pkg/install.log'\n"}
+[1.963213] (sim_pkg) CommandEnded: {'returncode': 0}
+[1.966406] (sim_pkg) JobEnded: {'identifier': 'sim_pkg', 'rc': 0}
+[2.004035] (-) TimerEvent: {}
+[2.037462] (msgs_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.112802] (-) TimerEvent: {}
+[2.214482] (-) TimerEvent: {}
+[2.222724] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.321561] (-) TimerEvent: {}
+[2.425821] (-) TimerEvent: {}
+[2.434017] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.460289] (msgs_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.466391] (msgs_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.503408] (msgs_control) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.503603] (msgs_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.503702] (msgs_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.503787] (msgs_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.520004] (msgs_control) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.528547] (-) TimerEvent: {}
+[2.577446] (msgs_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.580982] (msgs_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.599506] (msgs_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.625405] (msgs_control) StdoutLine: {'line': b'-- Generating done\n'}
+[2.627686] (msgs_control) StdoutLine: {'line': b'-- Build files have been written to: /home/robotica/ros2_ws/build/msgs_control\n'}
+[2.629423] (-) TimerEvent: {}
+[2.636228] (msgs_control) CommandEnded: {'returncode': 0}
+[2.636635] (msgs_control) JobProgress: {'identifier': 'msgs_control', 'progress': 'build'}
+[2.636657] (msgs_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotica/ros2_ws/build/msgs_control', '--', '-j2', '-l2'], 'cwd': '/home/robotica/ros2_ws/build/msgs_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/ros2_ws/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1181'), ('SYSTEMD_EXEC_PID', '1365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5600'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('JOURNAL_STREAM', '8:22994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-U22:@/tmp/.ICE-unix/1348,unix/robotica-U22:/tmp/.ICE-unix/1348'), ('INVOCATION_ID', 'f2bf30e6d3a44ec09f6399117c87ef0d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CI21I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:76848e23-1e9d-4796-b789-c32d370655db'), ('ROS_WS', '/home/robotica/ros2_ws'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/ros2_ws/build/msgs_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/ros2_ws/build/intro_pkg:/home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble')]), 'shell': False}
+[2.680588] (msgs_control) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.690701] (msgs_control) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.729699] (-) TimerEvent: {}
+[2.830387] (-) TimerEvent: {}
+[2.931001] (-) TimerEvent: {}
+[3.033654] (-) TimerEvent: {}
+[3.066031] (msgs_control) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_c.dir/rosidl_generator_c/msgs_control/srv/detail/sim_pid__functions.c.o\x1b[0m\n'}
+[3.096866] (msgs_control) StdoutLine: {'line': b'[  9%] Built target msgs_control__cpp\n'}
+[3.134093] (-) TimerEvent: {}
+[3.141636] (msgs_control) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_msgs_control\n'}
+[3.158005] (msgs_control) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.230438] (msgs_control) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libmsgs_control__rosidl_generator_c.so\x1b[0m\n'}
+[3.238766] (-) TimerEvent: {}
+[3.275818] (msgs_control) StdoutLine: {'line': b'[ 16%] Built target msgs_control__rosidl_generator_c\n'}
+[3.284854] (msgs_control) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.338866] (-) TimerEvent: {}
+[3.424953] (msgs_control) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_control/srv/detail/dds_fastrtps/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[3.439197] (-) TimerEvent: {}
+[3.540493] (-) TimerEvent: {}
+[3.599126] (msgs_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_control/srv/detail/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[3.641006] (-) TimerEvent: {}
+[3.753406] (-) TimerEvent: {}
+[3.902822] (-) TimerEvent: {}
+[4.006926] (-) TimerEvent: {}
+[4.057041] (msgs_control) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.059223] (msgs_control) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.097923] (msgs_control) StdoutLine: {'line': b'[ 32%] Built target msgs_control__rosidl_typesupport_introspection_cpp\n'}
+[4.107992] (-) TimerEvent: {}
+[4.109700] (msgs_control) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.120391] (msgs_control) StdoutLine: {'line': b'[ 35%] Built target msgs_control__rosidl_typesupport_fastrtps_cpp\n'}
+[4.131443] (msgs_control) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.209954] (-) TimerEvent: {}
+[4.310436] (-) TimerEvent: {}
+[4.324198] (msgs_control) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_control/srv/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[4.419717] (-) TimerEvent: {}
+[4.420031] (msgs_control) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_control/srv/detail/sim_pid__type_support_c.cpp.o\x1b[0m\n'}
+[4.520462] (-) TimerEvent: {}
+[4.551913] (msgs_control) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.598590] (msgs_control) StdoutLine: {'line': b'[ 48%] Built target msgs_control__rosidl_typesupport_cpp\n'}
+[4.608264] (msgs_control) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.622312] (-) TimerEvent: {}
+[4.714924] (msgs_control) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.731901] (-) TimerEvent: {}
+[4.797860] (msgs_control) StdoutLine: {'line': b'[ 54%] Built target msgs_control__rosidl_typesupport_fastrtps_c\n'}
+[4.807690] (msgs_control) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.841912] (msgs_control) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_control/srv/detail/sim_pid__type_support.c.o\x1b[0m\n'}
+[4.842295] (-) TimerEvent: {}
+[4.886183] (msgs_control) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libmsgs_control__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.916680] (msgs_control) StdoutLine: {'line': b'[ 64%] Built target msgs_control__rosidl_typesupport_introspection_c\n'}
+[4.954828] (-) TimerEvent: {}
+[5.039936] (msgs_control) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_control/srv/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[5.058038] (-) TimerEvent: {}
+[5.070994] (msgs_control) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.116456] (msgs_control) StdoutLine: {'line': b'[ 70%] Built target msgs_control__rosidl_typesupport_c\n'}
+[5.139747] (msgs_control) StdoutLine: {'line': b'[ 70%] Built target msgs_control\n'}
+[5.143580] (msgs_control) StdoutLine: {'line': b'running egg_info\n'}
+[5.143875] (msgs_control) StdoutLine: {'line': b'creating msgs_control.egg-info\n'}
+[5.143931] (msgs_control) StdoutLine: {'line': b'writing msgs_control.egg-info/PKG-INFO\n'}
+[5.144379] (msgs_control) StdoutLine: {'line': b'writing dependency_links to msgs_control.egg-info/dependency_links.txt\n'}
+[5.144805] (msgs_control) StdoutLine: {'line': b'writing top-level names to msgs_control.egg-info/top_level.txt\n'}
+[5.145227] (msgs_control) StdoutLine: {'line': b"writing manifest file 'msgs_control.egg-info/SOURCES.txt'\n"}
+[5.147645] (msgs_control) StdoutLine: {'line': b"reading manifest file 'msgs_control.egg-info/SOURCES.txt'\n"}
+[5.148390] (msgs_control) StdoutLine: {'line': b"writing manifest file 'msgs_control.egg-info/SOURCES.txt'\n"}
+[5.157860] (-) TimerEvent: {}
+[5.165825] (msgs_control) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.174590] (msgs_control) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_msgs_control_egg\n'}
+[5.259003] (-) TimerEvent: {}
+[5.360198] (-) TimerEvent: {}
+[5.474308] (-) TimerEvent: {}
+[5.506953] (msgs_control) StdoutLine: {'line': b'[ 74%] Built target msgs_control__py\n'}
+[5.531364] (msgs_control) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_py.dir/rosidl_generator_py/msgs_control/srv/_sim_pid_s.c.o\x1b[0m\n'}
+[5.574573] (-) TimerEvent: {}
+[5.675094] (-) TimerEvent: {}
+[5.771719] (msgs_control) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/libmsgs_control__rosidl_generator_py.so\x1b[0m\n'}
+[5.776736] (-) TimerEvent: {}
+[5.821090] (msgs_control) StdoutLine: {'line': b'[ 80%] Built target msgs_control__rosidl_generator_py\n'}
+[5.845359] (msgs_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.846079] (msgs_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.892858] (-) TimerEvent: {}
+[5.918470] (msgs_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.919035] (msgs_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.961068] (msgs_control) StdoutLine: {'line': b'[ 93%] Built target msgs_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.966985] (msgs_control) StdoutLine: {'line': b'[ 93%] Built target msgs_control__rosidl_typesupport_introspection_c__pyext\n'}
+[5.988830] (msgs_control) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.993915] (-) TimerEvent: {}
+[6.068642] (msgs_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.098311] (-) TimerEvent: {}
+[6.100131] (msgs_control) StdoutLine: {'line': b'[100%] Built target msgs_control__rosidl_typesupport_c__pyext\n'}
+[6.111949] (msgs_control) CommandEnded: {'returncode': 0}
+[6.198607] (-) TimerEvent: {}
+[6.228165] (msgs_control) JobProgress: {'identifier': 'msgs_control', 'progress': 'install'}
+[6.243782] (msgs_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotica/ros2_ws/build/msgs_control'], 'cwd': '/home/robotica/ros2_ws/build/msgs_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/ros2_ws/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1181'), ('SYSTEMD_EXEC_PID', '1365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5600'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('JOURNAL_STREAM', '8:22994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-U22:@/tmp/.ICE-unix/1348,unix/robotica-U22:/tmp/.ICE-unix/1348'), ('INVOCATION_ID', 'f2bf30e6d3a44ec09f6399117c87ef0d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CI21I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:76848e23-1e9d-4796-b789-c32d370655db'), ('ROS_WS', '/home/robotica/ros2_ws'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/ros2_ws/build/msgs_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/ros2_ws/build/intro_pkg:/home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble')]), 'shell': False}
+[6.252996] (msgs_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.254685] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/rosidl_interfaces/msgs_control\n'}
+[6.254898] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control\n'}
+[6.254946] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[6.255306] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[6.255549] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.c\n'}
+[6.256196] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.h\n'}
+[6.256261] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.h\n'}
+[6.256907] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.h\n'}
+[6.257116] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.h\n'}
+[6.257325] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[6.257380] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.259107] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/library_path.sh\n'}
+[6.259343] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/library_path.dsv\n'}
+[6.259835] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so\n'}
+[6.260048] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so" to ""\n'}
+[6.260249] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control\n'}
+[6.260319] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[6.260366] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[6.262318] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_c.h\n'}
+[6.263383] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[6.263450] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.263494] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so\n'}
+[6.263532] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.263642] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control\n'}
+[6.263695] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[6.263788] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[6.263836] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.c\n'}
+[6.263876] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_c.h\n'}
+[6.263912] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[6.263952] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.263990] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so\n'}
+[6.264026] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.264062] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so\n'}
+[6.264097] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so" to ""\n'}
+[6.264131] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control\n'}
+[6.264165] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[6.264209] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[6.264244] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__builder.hpp\n'}
+[6.264295] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.hpp\n'}
+[6.264334] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__traits.hpp\n'}
+[6.264373] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.hpp\n'}
+[6.264419] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control\n'}
+[6.264456] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[6.264494] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[6.264531] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/dds_fastrtps\n'}
+[6.264573] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.264607] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[6.264639] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.264672] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.264704] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.264736] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control\n'}
+[6.264768] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[6.264800] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[6.264833] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.cpp\n'}
+[6.264866] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.264899] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so\n'}
+[6.264939] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.264975] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so\n'}
+[6.265007] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so" to ""\n'}
+[6.265039] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/pythonpath.sh\n'}
+[6.265070] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/pythonpath.dsv\n'}
+[6.265102] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info\n'}
+[6.265138] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.265171] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.265203] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.265235] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.265268] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control\n'}
+[6.265300] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py\n'}
+[6.265332] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.265365] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/libmsgs_control__rosidl_generator_py.so\n'}
+[6.265397] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.265430] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.265463] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.265497] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c\n'}
+[6.265530] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv\n'}
+[6.265562] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py\n'}
+[6.265600] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid_s.c\n'}
+[6.265633] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py\n'}
+[6.265666] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.294401] (msgs_control) StdoutLine: {'line': b"Listing '/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control'...\n"}
+[6.294593] (msgs_control) StdoutLine: {'line': b"Compiling '/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py'...\n"}
+[6.294709] (msgs_control) StdoutLine: {'line': b"Listing '/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv'...\n"}
+[6.294774] (msgs_control) StdoutLine: {'line': b"Compiling '/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py'...\n"}
+[6.294847] (msgs_control) StdoutLine: {'line': b"Compiling '/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py'...\n"}
+[6.299576] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.300957] (-) TimerEvent: {}
+[6.301419] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.301851] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.302743] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.302797] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.303145] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.303784] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so\n'}
+[6.304281] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so" to ""\n'}
+[6.304614] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID.idl\n'}
+[6.305120] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID.srv\n'}
+[6.305183] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID_Request.msg\n'}
+[6.305894] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID_Response.msg\n'}
+[6.306349] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/package_run_dependencies/msgs_control\n'}
+[6.306399] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/parent_prefix_path/msgs_control\n'}
+[6.306577] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/ament_prefix_path.sh\n'}
+[6.306675] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/ament_prefix_path.dsv\n'}
+[6.306738] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/path.sh\n'}
+[6.306782] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/path.dsv\n'}
+[6.306821] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.bash\n'}
+[6.306856] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.sh\n'}
+[6.306890] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.zsh\n'}
+[6.306923] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.dsv\n'}
+[6.306964] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/package.dsv\n'}
+[6.306998] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/packages/msgs_control\n'}
+[6.307031] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport.cmake\n'}
+[6.307072] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.307107] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.307139] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.307171] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.307203] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.307236] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport.cmake\n'}
+[6.307268] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.307302] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cppExport.cmake\n'}
+[6.307335] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.307368] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.307400] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.307433] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.307466] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport.cmake\n'}
+[6.307499] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.307532] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport.cmake\n'}
+[6.307564] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.307596] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake-extras.cmake\n'}
+[6.307628] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.307665] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.307703] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.307735] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.307841] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.312151] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.312218] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig.cmake\n'}
+[6.312262] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig-version.cmake\n'}
+[6.312303] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/package.xml\n'}
+[6.312340] (msgs_control) CommandEnded: {'returncode': 0}
+[6.401484] (-) TimerEvent: {}
+[6.446582] (msgs_control) JobEnded: {'identifier': 'msgs_control', 'rc': 0}
+[6.447480] (-) EventReactorShutdown: {}

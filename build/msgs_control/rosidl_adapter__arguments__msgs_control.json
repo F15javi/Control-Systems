@@ -1,0 +1,6 @@
+{
+  "package_name": "msgs_control",
+  "non_idl_tuples": [
+    "/home/robotica/ros2_ws/src/msgs_control:srv/SimPID.srv"
+  ]
+}

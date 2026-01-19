@@ -1,0 +1,159 @@
+[0.219s] Invoking command in '/home/robotica/ros2_ws/build/msgs_control': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2_ws/build/msgs_control -- -j2 -l2
+[0.289s] [  3%] Built target msgs_control__cpp
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_generator_c[0m
+[0.321s] [ 12%] Built target msgs_control__rosidl_generator_c
+[0.335s] [ 12%] Built target ament_cmake_python_copy_msgs_control
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_fastrtps_cpp[0m
+[0.362s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_introspection_cpp[0m
+[0.373s] [ 22%] Built target msgs_control__rosidl_typesupport_fastrtps_cpp
+[0.382s] [ 32%] Built target msgs_control__rosidl_typesupport_introspection_cpp
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_cpp[0m
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_fastrtps_c[0m
+[0.418s] [ 41%] Built target msgs_control__rosidl_typesupport_cpp
+[0.431s] [ 51%] Built target msgs_control__rosidl_typesupport_fastrtps_c
+[0.441s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_introspection_c[0m
+[0.455s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_c[0m
+[0.465s] [ 61%] Built target msgs_control__rosidl_typesupport_introspection_c
+[0.475s] [ 70%] Built target msgs_control__rosidl_typesupport_c
+[0.549s] [ 70%] Built target msgs_control
+[0.691s] running egg_info
+[0.691s] writing msgs_control.egg-info/PKG-INFO
+[0.692s] writing dependency_links to msgs_control.egg-info/dependency_links.txt
+[0.693s] writing top-level names to msgs_control.egg-info/top_level.txt
+[0.695s] reading manifest file 'msgs_control.egg-info/SOURCES.txt'
+[0.696s] writing manifest file 'msgs_control.egg-info/SOURCES.txt'
+[0.720s] [ 70%] Built target ament_cmake_python_build_msgs_control_egg
+[0.732s] [ 74%] Built target msgs_control__py
+[0.742s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_generator_py[0m
+[0.765s] [ 80%] Built target msgs_control__rosidl_generator_py
+[0.779s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_introspection_c__pyext[0m
+[0.790s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.802s] [ 87%] Built target msgs_control__rosidl_typesupport_introspection_c__pyext
+[0.811s] [ 93%] Built target msgs_control__rosidl_typesupport_fastrtps_c__pyext
+[0.825s] [35m[1mConsolidate compiler generated dependencies of target msgs_control__rosidl_typesupport_c__pyext[0m
+[0.849s] [100%] Built target msgs_control__rosidl_typesupport_c__pyext
+[0.860s] Invoked command in '/home/robotica/ros2_ws/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2_ws/build/msgs_control -- -j2 -l2
+[1.110s] Invoking command in '/home/robotica/ros2_ws/build/msgs_control': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2_ws/build/msgs_control
+[1.118s] -- Install configuration: ""
+[1.118s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/rosidl_interfaces/msgs_control
+[1.118s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control
+[1.118s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[1.118s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[1.118s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.c
+[1.118s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.h
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.h
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.h
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.h
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_generator_c__visibility_control.h
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/library_path.sh
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/library_path.dsv
+[1.119s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so
+[1.120s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control
+[1.120s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[1.120s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[1.120s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_c.h
+[1.120s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[1.120s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.c
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_c.h
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[1.121s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.122s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so
+[1.122s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so
+[1.122s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control
+[1.122s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[1.122s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[1.122s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__builder.hpp
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.hpp
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__traits.hpp
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.hpp
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/dds_fastrtps
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_cpp.hpp
+[1.123s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[1.124s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.124s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so
+[1.124s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control
+[1.124s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[1.124s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[1.124s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.cpp
+[1.124s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_cpp.hpp
+[1.125s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so
+[1.125s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so
+[1.125s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/pythonpath.sh
+[1.125s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/pythonpath.dsv
+[1.126s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info
+[1.126s] -- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.127s] -- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/PKG-INFO
+[1.127s] -- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/top_level.txt
+[1.127s] -- Installing: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.128s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/libmsgs_control__rosidl_generator_py.so
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv
+[1.129s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py
+[1.130s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid_s.c
+[1.130s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py
+[1.130s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c
+[1.156s] Listing '/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control'...
+[1.156s] Listing '/home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv'...
+[1.159s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.160s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.160s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.160s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID.idl
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID.srv
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID_Request.msg
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/srv/SimPID_Response.msg
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/package_run_dependencies/msgs_control
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/parent_prefix_path/msgs_control
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/ament_prefix_path.sh
+[1.161s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/ament_prefix_path.dsv
+[1.162s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/path.sh
+[1.162s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/environment/path.dsv
+[1.162s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.bash
+[1.162s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.sh
+[1.162s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.zsh
+[1.162s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/local_setup.dsv
+[1.162s] -- Installing: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/package.dsv
+[1.163s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/ament_index/resource_index/packages/msgs_control
+[1.163s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport.cmake
+[1.163s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport-noconfig.cmake
+[1.163s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport.cmake
+[1.163s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.164s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport.cmake
+[1.164s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.164s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport.cmake
+[1.164s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport-noconfig.cmake
+[1.164s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cppExport.cmake
+[1.164s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.165s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.165s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport.cmake
+[1.165s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.165s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport.cmake
+[1.165s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport-noconfig.cmake
+[1.165s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport.cmake
+[1.166s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport-noconfig.cmake
+[1.166s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake-extras.cmake
+[1.166s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.166s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_libraries-extras.cmake
+[1.166s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_targets-extras.cmake
+[1.166s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.166s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.167s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.167s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig.cmake
+[1.167s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig-version.cmake
+[1.167s] -- Up-to-date: /home/robotica/ros2_ws/install/msgs_control/share/msgs_control/package.xml
+[1.175s] Invoked command in '/home/robotica/ros2_ws/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/home/robotica/ros2_ws/install/intro_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2_ws/build/msgs_control

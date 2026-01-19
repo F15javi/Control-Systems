@@ -1,0 +1,28 @@
+[0.623s] Invoking command in '/home/robotica/ros2_ws/build/intro_pkg': PYTHONPATH=/home/robotica/ros2_ws/build/intro_pkg/prefix_override:/home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotica/ros2_ws/build/intro_pkg/build --no-deps install_data
+[0.869s] running develop
+[1.009s] running egg_info
+[1.009s] creating intro_pkg.egg-info
+[1.010s] writing intro_pkg.egg-info/PKG-INFO
+[1.010s] writing dependency_links to intro_pkg.egg-info/dependency_links.txt
+[1.010s] writing entry points to intro_pkg.egg-info/entry_points.txt
+[1.010s] writing requirements to intro_pkg.egg-info/requires.txt
+[1.011s] writing top-level names to intro_pkg.egg-info/top_level.txt
+[1.011s] writing manifest file 'intro_pkg.egg-info/SOURCES.txt'
+[1.013s] reading manifest file 'intro_pkg.egg-info/SOURCES.txt'
+[1.015s] writing manifest file 'intro_pkg.egg-info/SOURCES.txt'
+[1.016s] running build_ext
+[1.016s] Creating /home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages/intro-pkg.egg-link (link to .)
+[1.017s] Installing hello script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+[1.017s] Installing pub_node script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+[1.017s] Installing sub_node script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+[1.017s] Installing timer script to /home/robotica/ros2_ws/install/intro_pkg/lib/intro_pkg
+[1.018s] 
+[1.018s] Installed /home/robotica/ros2_ws/build/intro_pkg
+[1.018s] running install_data
+[1.018s] creating /home/robotica/ros2_ws/install/intro_pkg/share/ament_index
+[1.018s] creating /home/robotica/ros2_ws/install/intro_pkg/share/ament_index/resource_index
+[1.018s] creating /home/robotica/ros2_ws/install/intro_pkg/share/ament_index/resource_index/packages
+[1.018s] copying resource/intro_pkg -> /home/robotica/ros2_ws/install/intro_pkg/share/ament_index/resource_index/packages
+[1.018s] copying package.xml -> /home/robotica/ros2_ws/install/intro_pkg/share/intro_pkg
+[1.018s] copying launch/intro.launch.py -> /home/robotica/ros2_ws/install/intro_pkg/share/intro_pkg
+[1.061s] Invoked command in '/home/robotica/ros2_ws/build/intro_pkg' returned '0': PYTHONPATH=/home/robotica/ros2_ws/build/intro_pkg/prefix_override:/home/robotica/ros2_ws/install/intro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotica/ros2_ws/build/intro_pkg/build --no-deps install_data
