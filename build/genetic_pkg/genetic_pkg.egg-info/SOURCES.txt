@@ -8,6 +8,7 @@ setup.py
 ../../build/genetic_pkg/genetic_pkg.egg-info/requires.txt
 ../../build/genetic_pkg/genetic_pkg.egg-info/top_level.txt
 ../../build/genetic_pkg/genetic_pkg.egg-info/zip-safe
+config/genetico_conf.yaml
 genetic_pkg/__init__.py
 genetic_pkg/genetic_sim.py
 resource/genetic_pkg

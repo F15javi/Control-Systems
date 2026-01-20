@@ -1,0 +1,27 @@
+[0.818s] Invoking command in '/home/robotica/ros2_ws/src/genetic_pkg': PYTHONPATH=/home/robotica/ros2_ws/build/genetic_pkg/prefix_override:/home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/genetic_pkg build --build-base /home/robotica/ros2_ws/build/genetic_pkg/build install --record /home/robotica/ros2_ws/build/genetic_pkg/install.log --single-version-externally-managed
+[1.006s] running egg_info
+[1.007s] writing ../../build/genetic_pkg/genetic_pkg.egg-info/PKG-INFO
+[1.007s] writing dependency_links to ../../build/genetic_pkg/genetic_pkg.egg-info/dependency_links.txt
+[1.007s] writing entry points to ../../build/genetic_pkg/genetic_pkg.egg-info/entry_points.txt
+[1.007s] writing requirements to ../../build/genetic_pkg/genetic_pkg.egg-info/requires.txt
+[1.007s] writing top-level names to ../../build/genetic_pkg/genetic_pkg.egg-info/top_level.txt
+[1.009s] reading manifest file '../../build/genetic_pkg/genetic_pkg.egg-info/SOURCES.txt'
+[1.010s] writing manifest file '../../build/genetic_pkg/genetic_pkg.egg-info/SOURCES.txt'
+[1.010s] running build
+[1.011s] running build_py
+[1.011s] copying genetic_pkg/genetic_sim.py -> /home/robotica/ros2_ws/build/genetic_pkg/build/lib/genetic_pkg
+[1.011s] running install
+[1.011s] running install_lib
+[1.012s] copying /home/robotica/ros2_ws/build/genetic_pkg/build/lib/genetic_pkg/genetic_sim.py -> /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg
+[1.013s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (genetic_sim.py, line 34)
+[1.023s] byte-compiling /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg/genetic_sim.py to genetic_sim.cpython-310.pyc
+[1.023s] running install_data
+[1.024s] creating /home/robotica/ros2_ws/install/genetic_pkg/share/genetic_pkg/config
+[1.024s] copying config/genetico_conf.yaml -> /home/robotica/ros2_ws/install/genetic_pkg/share/genetic_pkg/config
+[1.024s] running install_egg_info
+[1.024s] removing '/home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.024s] Copying ../../build/genetic_pkg/genetic_pkg.egg-info to /home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages/genetic_pkg-0.0.0-py3.10.egg-info
+[1.024s] running install_scripts
+[1.037s] Installing genetic script to /home/robotica/ros2_ws/install/genetic_pkg/lib/genetic_pkg
+[1.038s] writing list of installed files to '/home/robotica/ros2_ws/build/genetic_pkg/install.log'
+[1.082s] Invoked command in '/home/robotica/ros2_ws/src/genetic_pkg' returned '0': PYTHONPATH=/home/robotica/ros2_ws/build/genetic_pkg/prefix_override:/home/robotica/ros2_ws/install/genetic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/genetic_pkg build --build-base /home/robotica/ros2_ws/build/genetic_pkg/build install --record /home/robotica/ros2_ws/build/genetic_pkg/install.log --single-version-externally-managed
