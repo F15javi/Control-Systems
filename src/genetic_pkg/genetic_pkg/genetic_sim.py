@@ -61,7 +61,7 @@ class SimPIDClientNode(Node):
     def evaluate(self, chromosome):
         # Aquí debes implementar la evaluación del cromosoma y retornar un valor de fitness
         response = self.call_sim_pid_server(kp=chromosome[0], ki=chromosome[1], kd=chromosome[2])
-        fitness=Fitness = 1 / 1 + self.w[0]*abs(response.ts)+ self.w[1]*abs(response.d)+ self.w[2]*abs(response.overshoot)+ self.w[3]*abs(response.ess)
+        fitness = 1 / 1 + self.w[0]*abs(response.ts)+ self.w[1]*abs(response.d)+ self.w[2]*abs(response.overshoot)+ self.w[3]*abs(response.ess)
         return fitness
 
     # Generar un cromosoma aleatorio
