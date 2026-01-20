@@ -42,8 +42,7 @@ class SimPIDClientNode(Node):
         generations = self.get_parameter('generations').value
         mutation_rate = self.get_parameter('mutation_rate').value
         crossover_rate = self.get_parameter('crossover_rate').value
-        while True:
-        	self.get_logger().info(f'My log message {population_size}')
+       
         
         best_chromosome = self.genetic_algorithm(population_size, chromosome_length, generations, mutation_rate, crossover_rate)
         self.get_logger().info(f'best gen={best_chromosome[0]}')
@@ -75,7 +74,7 @@ class SimPIDClientNode(Node):
     def evaluate(self, chromosome):
         # Aquí debes implementar la evaluación del cromosoma y retornar un valor de fitness
         response = self.call_sim_pid_server(kp=chromosome[0], ki=chromosome[1], kd=chromosome[2])
-        fitness = 1 / 1 + self.w[0]*abs(response.ts)+ self.w[1]*abs(response.d)+ self.w[2]*abs(response.overshoot)+ self.w[3]*abs(response.ess)
+        fitness = 1 / (1 + self.w[0]*abs(response.ts)+ self.w[1]*abs(response.d)+ self.w[2]*abs(response.overshoot)+ self.w[3]*abs(response.ess))
         return fitness
 
     # Generar un cromosoma aleatorio

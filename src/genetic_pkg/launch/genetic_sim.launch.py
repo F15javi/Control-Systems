@@ -8,13 +8,13 @@ def generate_launch_description():
     config = os.path.join(
         get_package_share_directory('genetic_pkg'),
         'config',
-        'genetico_conf.yaml'
+        'params.yaml'
     )
     return LaunchDescription([
         Node(
             package='genetic_pkg',  # Reemplaza con el nombre de tu paquete
             executable='genetic',  # Reemplaza con el nombre de tu nodo
-            output='both'         # Puedes elegir 'screen', 'log' o 'both'
+            output='both',         # Puedes elegir 'screen', 'log' o 'both'
             name='sim_pid_client_sync',
             parameters=[config]  # Archivo de configuracion del algoritmo.
 
