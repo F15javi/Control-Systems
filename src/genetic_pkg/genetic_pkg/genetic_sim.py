@@ -25,12 +25,26 @@ class SimPIDClientNode(Node):
         self.Elite_List=[]
         self.RangoGen = [[],[]]     
 
-        population_size = 100
-        chromosome_length = 3
-        generations = 200
-        mutation_rate = 0.1
-        crossover_rate = 0.6
-
+        #population_size = 100
+        #chromosome_length = 3
+        #generations = 200
+        #mutation_rate = 0.1
+        #crossover_rate = 0.6
+              
+        self.declare_parameter('population_size', 100)
+        self.declare_parameter('chromosome_length', 3)
+        self.declare_parameter('generations', 200)
+        self.declare_parameter('mutation_rate', 0.1)
+        self.declare_parameter('crossover_rate', 0.6)
+        
+        population_size = self.get_parameter('population_size').value
+        chromosome_length = self.get_parameter('chromosome_length').value
+        generations = self.get_parameter('generations').value
+        mutation_rate = self.get_parameter('mutation_rate').value
+        crossover_rate = self.get_parameter('crossover_rate').value
+        while True:
+            self.get_logger().info(f'My log message {population_size}')
+        
         best_chromosome = self.genetic_algorithm(population_size, chromosome_length, generations, mutation_rate, crossover_rate)
         self.get_logger().info(f'best gen={best_chromosome[0]}')
 
